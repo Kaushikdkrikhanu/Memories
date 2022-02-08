@@ -1,5 +1,4 @@
 node_modules
 /client/node_modules
 /server/node_modules
-/server/middleware/auth.js
-/server/middleware/new_auth.js
+/server/mongodburl.js
