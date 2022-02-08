@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({baseURL: 'http://localhost:5000'})
+const API = axios.create({baseURL: '    '})
 //all the required information for creating, updating posts such as name and id are being added to the token in the server and sent back.
 //Here we are using that token which is being stored in the local storage for creating, updating posts and sending it back to the server,
 //the server will be able to access this information by decoding the token 
