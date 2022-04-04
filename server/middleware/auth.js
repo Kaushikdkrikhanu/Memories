@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken'
 /*
-*the token is sent from the client in the header, then it is decoded to take out the id.d
+*the token is sent from the client in the header, then it is decoded to take out the id.
 */
 const auth = async(req,res,next)=>{
     try{
