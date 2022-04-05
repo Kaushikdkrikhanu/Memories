@@ -98,7 +98,7 @@ function Auth() {
                             }
                             onSuccess = {googleSuccess}
                             onFailure = {googleError}
-                            cookiePolicy = "https://itsnicetohavememories.netlify.app"                          
+                            cookiePolicy = {'single_host_origin'}                  
                         />
                     </Grid>
                     <Grid container justifyContent="flex-end">
