@@ -89,7 +89,7 @@ function Auth() {
                             {isSignUp?"SIGN UP":"SIGN IN"}
                         </Button>
                         <GoogleLogin 
-                            clientId = "213043083450-7nkb6jco1bmv62c202kv546hk602n66g.apps.googleusercontent.com"
+                            clientId = "213043083450-2cp05j0qj6brrklg5e4jv28dfa4v9q0s.apps.googleusercontent.com"
                             render = { (renderProps)=>(
                                 <Button color="primary" onClick={renderProps.onClick} variant="contained" className={classes.googleButton} fullWidth disabled = {renderProps.disabled} startIcon={<Icon/>}>
                                     GOOGLE SIGN IN
